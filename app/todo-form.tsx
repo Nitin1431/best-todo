@@ -19,7 +19,7 @@ export function AddTodoForm() {
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
         <input name="title" type="text" placeholder="What needs to be done?" maxLength={120} autoComplete="off" aria-label="New task" aria-describedby={state.error ? "form-error" : undefined} />
       </div>
-      <button type="submit" disabled={pending}>{pending ? "Adding…" : "Create task"}</button>
+      <button type="submit" disabled={pending}>{pending ? "Adding…" : "Create a Task"}</button>
       {state.error && <p className="form-error" id="form-error">{state.error}</p>}
     </form>
   );
