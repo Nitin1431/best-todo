@@ -14,7 +14,7 @@ export default async function Home() {
       <section className="todo-card" aria-labelledby="page-title">
         <header className="card-header">
           <div>
-            <p className="eyebrow">My workspace</p>
+            <p className="eyebrow">My Todo List</p>
             <h1 id="page-title">My Todo List</h1>
             <p className="subtitle">
               {todos.length === 0
