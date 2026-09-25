@@ -15,7 +15,7 @@ export default async function Home() {
         <header className="card-header">
           <div>
             <p className="eyebrow">My workspace</p>
-            <h1 id="page-title">Things to do</h1>
+            <h1 id="page-title">My Todo List</h1>
             <p className="subtitle">
               {todos.length === 0
                 ? "A quiet list is a good place to start."
